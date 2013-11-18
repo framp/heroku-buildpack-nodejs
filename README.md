@@ -1,7 +1,7 @@
 Heroku Nodeps Buildpack for Node.js
 ============================
 
-This is a fork of [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for Node.js apps which disable npm dependencies installation.
+This is a fork of [Heroku node.js buildpack](https://github.com/heroku/heroku-buildpack-nodejs) which disables npm dependencies installation.
 
 It has been created because of a npm shortage which make my pushes to heroku to fail (and I'm tired of reuploading those damn heavy objects every single time).
 
