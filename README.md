@@ -2,9 +2,11 @@ Heroku Nodeps Buildpack for Node.js
 ============================
 
 This is a fork of [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for Node.js apps which disable npm dependencies installation.
-It has been created because of a npm shortage which make my pushes to heroku to fail.
 
-The buildpack will detect your app as Node.js if it has a `package.json` file in the root.  It will use npm to install your dependencies, and vendors a version of the Node.js runtime into your slug.
+It has been created because of a npm shortage which make my pushes to heroku to fail (and I'm tired of reuploading those damn heavy objects every single time).
+
+Obviously you shouldn't use it in production.
+
 
 Example Usage
 -------------
